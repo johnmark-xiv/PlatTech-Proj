@@ -2,11 +2,9 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// The URL for a generic, publicly hosted sunset beach image.
-// You can replace this with any other image URL you prefer.
 const BACKGROUND_IMAGE_URL = 'https://i.natgeofe.com/n/bbd81591-a957-4ca2-8a41-6433a2f03177/IMG_2733.jpg';
 
-// --- PAGE 1: The Home Page ---
+// Home Page
 app.get('/', (req, res) => {
   res.send(`
     <!DOCTYPE html>
@@ -42,7 +40,7 @@ app.get('/', (req, res) => {
     <body>
       <div class="content">
         <h1>Hi! Welcome to My Page</h1>
-        <p>Hope you're doing fine ♥.</p>
+        <p>Hope you're doing fine! ♥</p>
         
         <a href="/info" style="text-decoration: none;">
           <button style="
@@ -61,7 +59,7 @@ app.get('/', (req, res) => {
   `);
 });
 
-// --- PAGE 2: The Info Page ---
+// Info Page
 app.get('/info', (req, res) => {
   res.send(`
     <!DOCTYPE html>
