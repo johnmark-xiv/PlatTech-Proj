@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
             border: none;
             border-radius: 5px;
             cursor: pointer;">
-            See My Info
+            See My Profile
           </button>
         </a>
       </div>
