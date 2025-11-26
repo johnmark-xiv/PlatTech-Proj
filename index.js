@@ -117,8 +117,8 @@ app.get('/info', (req, res) => {
 
         <img src="${PROFILE_PIC}" alt="Profile" class="profile-pic">
 
-        <h1>Name: John Mark V. Marigondon</h1>
-        <h2>Section: BSIT SM - 4101</h2>
+        <h1>John Mark V. Marigondon</h1>
+        <h2>BSIT SM - 4101</h2>
 
         <br>
 
